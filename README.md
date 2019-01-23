@@ -3,8 +3,8 @@
 ## data_explorer.py
 
 - skeleton format:
-+ MPII : http://human-pose.mpi-inf.mpg.de/#download
-+ LSP : http://sam.johnson.io/research/lsp.html
+    - MPII : http://human-pose.mpi-inf.mpg.de/#download
+    - LSP : http://sam.johnson.io/research/lsp.html
 
 directory tree:
 ```Python
@@ -27,8 +27,9 @@ directory tree:
     └── README
 ```
 - label.pkl: store list of dict, for every dict:
-+ 'index': eg. '00000' 
-+ 'joints': (3, 14)
-+ 'ordinal': (14, 14)
-
+```
+'index': eg. '00000' 
+'joints': (3, 14)
+'ordinal': (14, 14)
+```
 **Note** MPII dataset has been reformated by `data_explorer.py`, so has the same nodes as LSP(14)
