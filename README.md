@@ -7,6 +7,7 @@
 + LSP : http://sam.johnson.io/research/lsp.html
 
 directory tree:
+```Python
     directory tree
     ./lsp-mpii-ordinal
     ├── data_explorer.py
@@ -24,7 +25,7 @@ directory tree:
     │   ├── LICENSE
     │   └── ordinal.mat
     └── README
-    
+```
 - label.pkl: store list of dict, for every dict:
 + 'index': eg. '00000' 
 + 'joints': (3, 14)
