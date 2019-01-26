@@ -1,6 +1,19 @@
 # human-pose3d
+dataset.py
 
-## data_explorer.py
+## dataset.py
+```
+python dataset.py
+```
+.
+├── dataset
+│   ├── images
+│   ├── label_mpii_lsp.pkl
+│   └── LICENSE
+└── dataset.py
+
+
+## data_explorer.py (ignore, just used to explore data)
 
 - skeleton format:
     - MPII : http://human-pose.mpi-inf.mpg.de/#download
@@ -33,3 +46,5 @@ directory tree:
 'ordinal': (14, 14)
 ```
 **Note** MPII dataset has been reformated by `data_explorer.py`, so has the same nodes as LSP(14)
+
+
